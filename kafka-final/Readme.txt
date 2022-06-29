@@ -8,7 +8,9 @@ Kafka official site:
 https://kafka.apache.org/downloads
 unzip the file in c folder and try opening kafka-topics.bat file through command prompt to check if installation is scuccessful
 
-create a folder called data in kafka folder and create zookeeper and kafka folder inside that
+create a folder called data in kafka folder and create zookeeper and kafka folder inside that whicch hold topic and kafka brokers related information.
+
+Please have a look into server.properties file and zookeeper properties file which is added in this repo and check if all the configurations look similar.
 
 to start zookeeper:
 zookeeper-server-start.bat config\zookeeper.properties
